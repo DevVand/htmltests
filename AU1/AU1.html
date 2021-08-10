@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>AU1</title>
+    </head>
+
+    <style>
+
+        p {
+            color: blue;
+        }
+        #big {
+            font-size: 2em;
+            color: red;
+        }
+
+        p:hover {
+            color: black;
+        }
+        
+        ol li {
+            text-align: center;
+            width: 200px;
+            background-color: lightgray;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        ol li:nth-child(odd){
+            background-color: gray;
+        }
+        ol li:hover {
+            width: 200px;
+            background-color: black;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        #box{
+            background-color: orange;
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        } 
+        #box.hover{
+            background-color: red;
+            width: 55px;
+            height: 55px;
+        }
+        #boxtxt{
+            position: absolute;
+            left: 25%;
+        }
+        #boxtxt.hover{
+            color: white;
+        }
+
+
+
+    </style>
+
+
+    <body>
+        <p>
+            first line
+            <p id="big">
+                second line
+            </p>
+        </p>
+        <a href="tst.html" title="tst link">third clickable line</a>
+        <div>
+             <img src="flower.png" width="200" height="200" alt="tst img" title="tst img">
+        </div>
+        <ol>
+            <li>test this thing</li>
+            <li>test this thing2</li>
+            <li>sub thing 2.1</li>
+            <li>sub thing 2.2</li>
+            <li>test this thing3</li>
+        </ol>
+        
+        <div id="box">
+            <p id="boxtxt">box</p>
+        </div>
+
+    </body>
+</html>
