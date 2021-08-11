@@ -34,27 +34,48 @@
             color: white;
             text-shadow: 2px 2px 4px #000000;
         }
-        #box{
+        #box1{
             background-color: orange;
             width: 50px;
             height: 50px;
             position: relative;
-            top: 50px;
-            left: 50px;
         } 
-        #box.hover{
+        #box1.hover{
             background-color: red;
             width: 55px;
             height: 55px;
         }
-        #boxtxt{
+        #box1txt{
             position: absolute;
             left: 25%;
         }
-        #boxtxt.hover{
+        #box1txt.hover{
             color: white;
         }
+        
+        .box{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            border: 3px solid black;
+            background-color: darkgray;
+            width: 33.33%;
+            height: 100%;
 
+            float: left;
+
+            box-sizing: border-box;
+        }
+        .boxholder{
+            width:50%;
+            height: fit-content;
+            border: 3px solid gray;
+            height: 50px;
+        }
+
+        #boxtxt{
+            text-align: center;
+        }
 
 
     </style>
@@ -79,9 +100,16 @@
             <li>test this thing3</li>
         </ol>
         
-        <div id="box">
-            <p id="boxtxt">box</p>
+        <div id="box1">
+            <p id="box1txt">box</p>
         </div>
-
+        <section class="boxholder">
+            <div class="box">
+                <p id="boxtxt">box</p></div>
+            <div class="box">
+                <p id="boxtxt">box</p></div></div>
+            <div class="box">
+                <p id="boxtxt">box</p></div></div>
+        </section>
     </body>
 </html>
