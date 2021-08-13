@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Sofia Pro Soft Regular
+font-family: sofia-pro-soft, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Sofia Pro Soft Medium
+font-family: sofia-pro-soft, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+
+Sofia Pro Soft Bold
+font-family: sofia-pro-soft, sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
+
+body {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-family: sofia-pro-soft, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/* header ----------------------------------------------------*/
+#header{
+  background-color: #999999;
+  border-radius: 0;
+  border: 0px solid #999999;
+  border-bottom: 3px solid black;
+  
+}
+.navbar-header{
+  background-color: white;
+}
+.navbar-header .header{
+  background-color: #999999;
+
+}
+#page-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display:inline-block;
+}
+
+
+/*button -------------------------*/
+#menu-button{
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+}
+#menu-button .icon-bar{
+  margin-left: auto;
+  margin-right: auto;
+  width: 35px;
+  height: 5px;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  background-color: black;
+}
+#chicken-btn{
+  margin-top: 10px;
+}
+#sushi-btn{
+  margin-bottom: 10px;
+}
+#nav-list li a{
+  color: black;
+}
+.nav-list-block hr{    
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border-top: 2px solid black;
+  border-radius: 2px;
+}
+/* end header ----------------------------------------------------*/
+
+/* food tiles ----------------------------------------------------*/
+.food-tile{
+  background-color: #999999;
+  height: fit-content;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 20px solid black;
+}
+
+.food-tile h3{
+  font-size: 1.6em;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+
+.food-tile p{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.food-tile p a{
+  color: #215F95;
+}
+/* food tiles end ------------------------------------------------*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #header{
+    border-bottom: 2px solid black;
+    
+  }
+  .navbar-header .header{
+    border-bottom: 1px solid black;
+  }
+}
+  
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+}
